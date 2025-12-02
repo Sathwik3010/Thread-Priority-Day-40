@@ -1,0 +1,11 @@
+we can prevent(stop) a thread execution by using the following methods
+----------------------------------------------------------------------
+1.yield();
+----------
+yield method causes "to pause current executing Thread for giving the chance of remaining waiting Threads of same priority".
+if all waiting Threads have the low priority there is no waiting Threads then the same thread will be continued its execution.
+if several waiting threads with same priority available then we can't expect exact which thread will get chance for execution.
+the thread which is yielded when it get chance once again for execution is depended on mercy of the Thread Schedular.
+
+2.join();
+3.sleep(); 
