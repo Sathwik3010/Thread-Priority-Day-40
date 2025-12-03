@@ -8,4 +8,12 @@ if several waiting threads with same priority available then we can't expect exa
 the thread which is yielded when it get chance once again for execution is depended on mercy of the Thread Schedular.
 
 2.join();
+if  a thread want's to a thread until completing another Thread then we should go for join() method.
+
+public void join() throws Interrupted Exception
+join method is throws an interrupted exception that exception is checked exception the programmer should handle that exception either by using try or catch or throws keyword.
+
 3.sleep(); 
+if a Thread doesn't perform any operations for a particular time then we should go for sleep method.
+
+public void sleep() throws InterruptedException
