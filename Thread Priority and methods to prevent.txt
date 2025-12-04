@@ -5,7 +5,7 @@ we can prevent(stop) a thread execution by using the following methods
 yield method causes "to pause current executing Thread for giving the chance of remaining waiting Threads of same priority".
 if all waiting Threads have the low priority there is no waiting Threads then the same thread will be continued its execution.
 if several waiting threads with same priority available then we can't expect exact which thread will get chance for execution.
-the thread which is yielded when it get chance once again for execution is depended on mercy of the Thread Schedular.
+the thread which is yielded(which is stoped) when it get chance once again for execution is depended on mercy of the Thread Schedular.
 
 2.join();
 if  a thread want's to a thread until completing another Thread then we should go for join() method.
@@ -17,3 +17,4 @@ join method is throws an interrupted exception that exception is checked excepti
 if a Thread doesn't perform any operations for a particular time then we should go for sleep method.
 
 public void sleep() throws InterruptedException
+
